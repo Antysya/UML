@@ -1,34 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T19:11:09.858Z" agent="5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.141 YaBrowser/22.3.2.648 Yowser/2.5 Safari/537.36" etag="O_pVtRBDSaMw6TkzcTDa" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-08T14:55:04.775Z" agent="5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.141 YaBrowser/22.3.3.855 Yowser/2.5 Safari/537.36" etag="ouIl-9y4Ejw3o0I7jjno" version="18.0.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="974" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="Банковская карта" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="80" width="100" height="440" as="geometry" />
+          <mxGeometry x="120" y="80" width="100" height="380" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-26" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
-          <mxGeometry x="45" y="340" width="10" height="20" as="geometry" />
+        <mxCell id="t4KaNUx2S1S6VHKgTfC5-26" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="45" y="300" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="Банкомат" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="80" width="100" height="420" as="geometry" />
+          <mxGeometry x="300" y="80" width="100" height="380" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-28" value="информация о снятии суммы" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.2;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
-          <mxGeometry x="0.0588" relative="1" as="geometry">
-            <mxPoint x="58" y="340" as="sourcePoint" />
-            <mxPoint x="225" y="340" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="138" y="340" />
-              <mxPoint x="198" y="340" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="Вставлена" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -51,16 +40,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-1" value="Банк" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="80" width="100" height="420" as="geometry" />
+        <mxCell id="t4KaNUx2S1S6VHKgTfC5-1" value="Банк" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="80" width="100" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="t4KaNUx2S1S6VHKgTfC5-1">
+        <mxCell id="t4KaNUx2S1S6VHKgTfC5-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="t4KaNUx2S1S6VHKgTfC5-1" vertex="1">
           <mxGeometry x="45" y="160" width="10" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-21" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="t4KaNUx2S1S6VHKgTfC5-1">
+        <mxCell id="t4KaNUx2S1S6VHKgTfC5-21" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="t4KaNUx2S1S6VHKgTfC5-1" vertex="1">
           <mxGeometry x="45" y="260" width="10" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-7" value="проверка успешно пройдена" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0;exitY=0.867;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="t4KaNUx2S1S6VHKgTfC5-2">
+        <mxCell id="t4KaNUx2S1S6VHKgTfC5-7" value="проверка успешно пройдена" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0;exitY=0.867;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="t4KaNUx2S1S6VHKgTfC5-2" edge="1">
           <mxGeometry x="-0.0303" relative="1" as="geometry">
             <mxPoint x="360" y="300" as="targetPoint" />
             <mxPoint x="190" y="250" as="sourcePoint" />
@@ -68,19 +57,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-13" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="t4KaNUx2S1S6VHKgTfC5-13" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="80" width="20" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-14" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="t4KaNUx2S1S6VHKgTfC5-13">
+        <mxCell id="t4KaNUx2S1S6VHKgTfC5-14" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="t4KaNUx2S1S6VHKgTfC5-13" vertex="1">
           <mxGeometry x="5" y="60" width="10" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-16" value="запрос суммы" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1.1;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="t4KaNUx2S1S6VHKgTfC5-14">
+        <mxCell id="t4KaNUx2S1S6VHKgTfC5-16" value="запрос суммы" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1.1;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="t4KaNUx2S1S6VHKgTfC5-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="345" y="280" as="sourcePoint" />
             <mxPoint x="70" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-17" value="ввод суммы" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="t4KaNUx2S1S6VHKgTfC5-17" value="ввод суммы" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry x="-0.0158" relative="1" as="geometry">
             <mxPoint x="345.5" y="330" as="targetPoint" />
             <mxPoint x="70" y="330" as="sourcePoint" />
@@ -90,13 +79,13 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-6" value="Проверка карты и пин-кода" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="t4KaNUx2S1S6VHKgTfC5-6" value="Проверка карты и пин-кода" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="355" y="260.0000000000001" as="sourcePoint" />
             <mxPoint x="525" y="260.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-22" value="Запрос наличия суммы на счету" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.2;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="t4KaNUx2S1S6VHKgTfC5-21">
+        <mxCell id="t4KaNUx2S1S6VHKgTfC5-22" value="Запрос наличия суммы на счету" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.2;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="t4KaNUx2S1S6VHKgTfC5-21" edge="1">
           <mxGeometry x="0.0588" relative="1" as="geometry">
             <mxPoint x="360" y="350" as="sourcePoint" />
             <mxPoint x="520" y="350" as="targetPoint" />
@@ -107,136 +96,38 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-24" value="сумма есть" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0;exitY=0.867;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="t4KaNUx2S1S6VHKgTfC5-24" value="return (см. диаграмму активности " style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0;exitY=0.867;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="-0.0303" relative="1" as="geometry">
-            <mxPoint x="360" y="390" as="targetPoint" />
-            <mxPoint x="525" y="390.69000000000005" as="sourcePoint" />
+            <mxPoint x="360" y="380" as="targetPoint" />
+            <mxPoint x="525" y="380.69000000000005" as="sourcePoint" />
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-25" value="выдача денег" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1.1;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="t4KaNUx2S1S6VHKgTfC5-14">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="t4KaNUx2S1S6VHKgTfC5-25" value="выдача денег" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0;exitY=0.911;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="t4KaNUx2S1S6VHKgTfC5-13" edge="1" source="3nuBFxr9cyL0pnOWT2aG-6">
+          <mxGeometry x="-0.3689" y="-1" relative="1" as="geometry">
             <mxPoint x="345" y="410" as="sourcePoint" />
             <mxPoint x="70" y="410" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-27" value="возврат карты" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.5;entryY=0.496;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.1;exitY=0.964;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="t4KaNUx2S1S6VHKgTfC5-26">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="t4KaNUx2S1S6VHKgTfC5-27" value="возврат карты" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.2;exitY=0.836;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="t4KaNUx2S1S6VHKgTfC5-26" edge="1">
+          <mxGeometry x="0.0116" relative="1" as="geometry">
             <mxPoint x="355" y="420" as="sourcePoint" />
             <mxPoint x="80" y="420" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-51" value="Банковская карта" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="560" width="100" height="430" as="geometry" />
-        </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-52" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="t4KaNUx2S1S6VHKgTfC5-51">
-          <mxGeometry x="45" y="70" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-53" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="t4KaNUx2S1S6VHKgTfC5-51">
-          <mxGeometry x="45" y="340" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-54" value="Банкомат" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="560" width="100" height="420" as="geometry" />
-        </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-55" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="t4KaNUx2S1S6VHKgTfC5-54">
-          <mxGeometry x="45" y="80" width="10" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-57" value="Вставлена" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1" source="t4KaNUx2S1S6VHKgTfC5-52" target="t4KaNUx2S1S6VHKgTfC5-55">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="265" y="640" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-58" value="запрос пин-кода" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.7;entryY=0.283;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="t4KaNUx2S1S6VHKgTfC5-55" target="t4KaNUx2S1S6VHKgTfC5-64">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="680" as="sourcePoint" />
-            <mxPoint x="60" y="680" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-59" value="ввод пин-кода" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="t4KaNUx2S1S6VHKgTfC5-64" target="t4KaNUx2S1S6VHKgTfC5-55">
-          <mxGeometry x="-0.0303" relative="1" as="geometry">
-            <mxPoint x="230" y="737" as="targetPoint" />
-            <mxPoint x="170" y="720" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="220" y="720" />
-            </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-60" value="Банк" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="560" width="100" height="420" as="geometry" />
-        </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-61" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="t4KaNUx2S1S6VHKgTfC5-60">
-          <mxGeometry x="45" y="160" width="10" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-62" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="t4KaNUx2S1S6VHKgTfC5-60">
-          <mxGeometry x="45" y="260" width="10" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-63" value="проверка успешно пройдена" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0;exitY=0.867;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="t4KaNUx2S1S6VHKgTfC5-61">
-          <mxGeometry x="-0.0303" relative="1" as="geometry">
-            <mxPoint x="350" y="780" as="targetPoint" />
-            <mxPoint x="180" y="730" as="sourcePoint" />
-            <Array as="points" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-64" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="560" width="20" height="420" as="geometry" />
-        </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-65" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="t4KaNUx2S1S6VHKgTfC5-64">
-          <mxGeometry x="5" y="60" width="10" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-66" value="запрос суммы" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1.1;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="t4KaNUx2S1S6VHKgTfC5-65">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="335" y="760" as="sourcePoint" />
-            <mxPoint x="60" y="760" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-67" value="ввод суммы" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
-          <mxGeometry x="-0.0158" relative="1" as="geometry">
-            <mxPoint x="335.5" y="810" as="targetPoint" />
-            <mxPoint x="60" y="810" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="220.5" y="810" />
-            </Array>
-            <mxPoint x="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-68" value="Проверка карты и пин-кода" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="345" y="740.0000000000001" as="sourcePoint" />
-            <mxPoint x="515" y="740.0000000000001" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-69" value="Запрос наличия суммы на счету" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.5;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="t4KaNUx2S1S6VHKgTfC5-62">
+        <mxCell id="t4KaNUx2S1S6VHKgTfC5-28" value="информация о снятии суммы" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.2;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="0.0588" relative="1" as="geometry">
-            <mxPoint x="350" y="830" as="sourcePoint" />
-            <mxPoint x="510" y="830" as="targetPoint" />
+            <mxPoint x="355" y="430" as="sourcePoint" />
+            <mxPoint x="522" y="430" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="430" y="830" />
-              <mxPoint x="490" y="830" />
+              <mxPoint x="435" y="430" />
+              <mxPoint x="495" y="430" />
             </Array>
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-70" value="недостаточно средств" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0;exitY=0.867;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0303" relative="1" as="geometry">
-            <mxPoint x="350" y="870" as="targetPoint" />
-            <mxPoint x="515" y="870.69" as="sourcePoint" />
-            <Array as="points" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-71" value="недостаточно средств" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1.1;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="t4KaNUx2S1S6VHKgTfC5-65">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="335" y="890" as="sourcePoint" />
-            <mxPoint x="60" y="890" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="t4KaNUx2S1S6VHKgTfC5-72" value="возврат карты" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.5;entryY=0.496;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.1;exitY=0.964;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="t4KaNUx2S1S6VHKgTfC5-55" target="t4KaNUx2S1S6VHKgTfC5-53">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="345" y="900" as="sourcePoint" />
-            <mxPoint x="70" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
