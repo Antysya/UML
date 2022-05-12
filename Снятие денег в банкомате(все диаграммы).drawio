@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-12T17:49:01.152Z" agent="5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.141 YaBrowser/22.3.3.855 Yowser/2.5 Safari/537.36" etag="gwTW7_2npKzb5I423A41" version="18.0.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-12T18:02:43.415Z" agent="5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.141 YaBrowser/22.3.3.855 Yowser/2.5 Safari/537.36" etag="HHztdugIMmXP3mH1Ttxw" version="18.0.2" type="github" pages="6">
   <diagram id="Yti8xPk7uRx3wiL8uX4w" name="Диаграмма прецедентов">
     <mxGraphModel dx="974" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -485,6 +485,65 @@
         </mxCell>
         <mxCell id="-cqcmkGTlYV6RrLde7Ql-20" value="4.выдача средств / отказ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="150" y="230" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="T04Alj5yEEUIKkp3_6X3" name="Диаграмма активности">
+    <mxGraphModel dx="974" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c59UKzEnMqG81CiDpc08-1" value="" style="ellipse;fillColor=#000000;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c59UKzEnMqG81CiDpc08-2" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c59UKzEnMqG81CiDpc08-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#FFFFFF;strokeColor=#000000;" edge="1" parent="1" source="c59UKzEnMqG81CiDpc08-4" target="c59UKzEnMqG81CiDpc08-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c59UKzEnMqG81CiDpc08-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c59UKzEnMqG81CiDpc08-4" target="c59UKzEnMqG81CiDpc08-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c59UKzEnMqG81CiDpc08-4" value="ответ" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="235" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c59UKzEnMqG81CiDpc08-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#FFFFFF;strokeColor=#000000;" edge="1" parent="1" source="c59UKzEnMqG81CiDpc08-6" target="c59UKzEnMqG81CiDpc08-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c59UKzEnMqG81CiDpc08-6" value="Сумма есть" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="435" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c59UKzEnMqG81CiDpc08-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c59UKzEnMqG81CiDpc08-8" target="c59UKzEnMqG81CiDpc08-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c59UKzEnMqG81CiDpc08-8" value="Суммы нет" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c59UKzEnMqG81CiDpc08-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#FFFFFF;strokeColor=#000000;" edge="1" parent="1" source="c59UKzEnMqG81CiDpc08-4" target="c59UKzEnMqG81CiDpc08-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="220" as="sourcePoint" />
+            <mxPoint x="520" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c59UKzEnMqG81CiDpc08-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="c59UKzEnMqG81CiDpc08-13" target="c59UKzEnMqG81CiDpc08-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c59UKzEnMqG81CiDpc08-13" value="выдать карту" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c59UKzEnMqG81CiDpc08-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="c59UKzEnMqG81CiDpc08-15" target="c59UKzEnMqG81CiDpc08-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c59UKzEnMqG81CiDpc08-15" value="выдать деньги" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;rounded=1;arcSize=40;" vertex="1" parent="1">
+          <mxGeometry x="435" y="250" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
